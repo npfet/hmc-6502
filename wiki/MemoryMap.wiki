@@ -4,6 +4,7 @@ The 6502 does not place any hard constraints, or meaning to any of the memory lo
 
 (from http://apple2history.org/history/ah03.html)
 
+{{{
 Page $00:		used by the 6502 processor for storage of information that it can access quickly.  This is prime real-estate that is seldom available for general use by programmers without special care.
 Page $01:		used by the 6502 for internal operations as a "stack."
 Page $02:		used by the Apple II firmware as an input buffer when using the keyboard from BASIC, or when a program uses any of the firmware input routines.
@@ -17,3 +18,4 @@ Pages $D0-$D7:		empty ROM socket #1
 Pages $D8-$DF:		empty ROM socket #2
 Pages $E0-$F7:		Integer BASIC ROM
 Pages $F8-$FF:		Monitor ROM
+}}}
