@@ -1,0 +1,10 @@
+#summary Description of the flag register
+
+Carry: Carry out from alu[7]
+Overflow: Carry out from alu[6]
+Zero flag: Set when aluout==0
+Decimal mode: controls BCD mode of CPU
+Break: Set when processor interrupts from getting break command
+Expansion bit: To prevent cracking during thermal cycles.
+Interrupt disable: Disables servicing of interrupts (is this set on getting an interrupt, like in MIPS)
+Negative result: alu[7]
