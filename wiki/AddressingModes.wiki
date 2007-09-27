@@ -1,0 +1,7 @@
+The 8-bit opcode fully specifies the operation of the CPU for the operation. It defined both the operation, and where the input data will come from.
+
+The addressing modes are:
+
+(opcode [one, two]: bytes in instruction)
+  * Immediate (data=one)
+  * Zero page (data=*{00, one})
