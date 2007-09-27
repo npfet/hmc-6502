@@ -1,3 +1,5 @@
+#summary Progress on building the emulator
+
 Before starting work on the HDL, I will produce a complete, instruction level emulator for the CPU. This will help me understand the operation of the CPU, and hopefully solve many of the possible issues with designing the CPU before I actually start doing so.
 
 To do:
