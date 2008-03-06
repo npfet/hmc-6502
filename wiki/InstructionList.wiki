@@ -1,5 +1,5 @@
 # automated generation
-  * 0x69:('adc', imm)
+  * 0x69:('adc', imm)    # NOTE: Heather will table everything from here down to...
   * 0x65:('adc', zpg)
   * 0x75:('adc', zpx)
   * 0x6d:('adc', abs)
@@ -51,7 +51,7 @@
   * 0xe6:('inc', zpg)
   * 0xf6:('inc', zpx)
   * 0xee:('inc', abs)
-  * 0xfe:('inc', abx)
+  * 0xfe:('inc', abx)   # ... here, for the moment. -Heather
   * 0x4c:('jmp', abs)
   * 0x6c:('jmp', ind)
   * 0x20:('jsr', abs)
