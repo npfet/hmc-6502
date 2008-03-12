@@ -1,5 +1,7 @@
+NOTE: "++" means the instruction is included in one of the more thorough tests...
+
 # automated generation
-  * 0x69:('adc', imm)    # NOTE: Heather will table everything from here down to...
+  * 0x69:('adc', imm)
   * 0x65:('adc', zpg)
   * 0x75:('adc', zpx)
   * 0x6d:('adc', abs)
@@ -51,28 +53,28 @@
   * 0xe6:('inc', zpg)
   * 0xf6:('inc', zpx)
   * 0xee:('inc', abs)
-  * 0xfe:('inc', abx)   # ... here, for the moment. -Heather
-  * 0x4c:('jmp', abs)   # Oh yeah, leave me with the jumps why don't you? ~KMarsh
+  * 0xfe:('inc', abx)
+  * 0x4c:('jmp', abs)
   * 0x6c:('jmp', ind)
   * 0x20:('jsr', abs)
-  * 0xa9:('lda', imm)
-  * 0xa5:('lda', zpg)
-  * 0xb5:('lda', zpx)
-  * 0xad:('lda', abs)
-  * 0xbd:('lda', abx)
-  * 0xb9:('lda', aby)
-  * 0xa1:('lda', idx)
-  * 0xb1:('lda', idy)
-  * 0xa2:('ldx', imm)
-  * 0xa6:('ldx', zpg)
-  * 0xb6:('ldx', zpy)
-  * 0xae:('ldx', abs)
-  * 0xbe:('ldx', aby)
-  * 0xa0:('ldy', imm)
-  * 0xa4:('ldy', zpg)
-  * 0xb4:('ldy', zpx)
-  * 0xac:('ldy', abs)
-  * 0xbc:('ldy', abx)
+  * 0xa9:('lda', imm) ++
+  * 0xa5:('lda', zpg) ++
+  * 0xb5:('lda', zpx) ++
+  * 0xad:('lda', abs) ++
+  * 0xbd:('lda', abx) ++
+  * 0xb9:('lda', aby) ++
+  * 0xa1:('lda', idx) ++
+  * 0xb1:('lda', idy) ++
+  * 0xa2:('ldx', imm) ++
+  * 0xa6:('ldx', zpg) ++
+  * 0xb6:('ldx', zpy) ++
+  * 0xae:('ldx', abs) ++
+  * 0xbe:('ldx', aby) ++
+  * 0xa0:('ldy', imm) ++
+  * 0xa4:('ldy', zpg) ++
+  * 0xb4:('ldy', zpx) ++
+  * 0xac:('ldy', abs) ++
+  * 0xbc:('ldy', abx) ++
   * 0x4a:('lsr', acc)
   * 0x46:('lsr', zpg)
   * 0x56:('lsr', zpx)
@@ -104,19 +106,19 @@
   * 0xf9:('sbc', aby)
   * 0xe1:('sbc', idx)
   * 0xf1:('sbc', idy)
-  * 0x85:('sta', zpg)
-  * 0x95:('sta', zpx)
-  * 0x8d:('sta', abs)
-  * 0x9d:('sta', abx)
-  * 0x99:('sta', aby)
-  * 0x81:('sta', idx)
-  * 0x91:('sta', idy)
-  * 0x86:('stx', zpg)
-  * 0x96:('stx', zpy)
-  * 0x8e:('stx', abs)
-  * 0x84:('sty', zpg)
-  * 0x94:('sty', zpx)
-  * 0x8c:('sty', abs)
+  * 0x85:('sta', zpg) ++
+  * 0x95:('sta', zpx) ++
+  * 0x8d:('sta', abs) ++
+  * 0x9d:('sta', abx) ++
+  * 0x99:('sta', aby) ++
+  * 0x81:('sta', idx) ++
+  * 0x91:('sta', idy) ++
+  * 0x86:('stx', zpg) ++
+  * 0x96:('stx', zpy) ++
+  * 0x8e:('stx', abs) ++
+  * 0x84:('sty', zpg) ++
+  * 0x94:('sty', zpx) ++
+  * 0x8c:('sty', abs) ++
 
 # manually enter
   * 0x00:('brk', imm)
