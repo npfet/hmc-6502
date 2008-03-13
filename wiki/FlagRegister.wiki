@@ -1,5 +1,15 @@
 #summary Description of the flag register
 
+Bitfield for flags is: [N,V,_,B,D,I,Z,C]
+N = Negative Result -- sometimes (S)ign Bit
+V = Overflow
+_ = Expansion Bit
+B = Break Command
+D = Decimal Mode
+I = Interrupt Disable
+Z = Zero Result
+C = Carry
+
 Carry: Carry out from alu[7]
 
 Overflow: Carry out from alu[6]
