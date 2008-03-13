@@ -38,10 +38,10 @@ NOTE: "++" means the instruction is included in one of the more thorough tests..
   * 0xc0:('cpy', imm)
   * 0xc4:('cpy', zpg)
   * 0xcc:('cpy', abs)
-  * 0xc6:('dec', zpg)
-  * 0xd6:('dec', zpx)
-  * 0xce:('dec', abs)
-  * 0xde:('dec', abx)
+  * 0xc6:('dec', zpg) ++
+  * 0xd6:('dec', zpx) ++
+  * 0xce:('dec', abs) ++
+  * 0xde:('dec', abx) ++
   * 0x49:('eor', imm) ++
   * 0x45:('eor', zpg) ++
   * 0x55:('eor', zpx) ++
@@ -50,10 +50,10 @@ NOTE: "++" means the instruction is included in one of the more thorough tests..
   * 0x59:('eor', aby) ++
   * 0x41:('eor', idx) ++
   * 0x51:('eor', idy) ++
-  * 0xe6:('inc', zpg)
-  * 0xf6:('inc', zpx)
-  * 0xee:('inc', abs)
-  * 0xfe:('inc', abx)
+  * 0xe6:('inc', zpg) ++
+  * 0xf6:('inc', zpx) ++
+  * 0xee:('inc', abs) ++
+  * 0xfe:('inc', abx) ++
   * 0x4c:('jmp', abs)
   * 0x6c:('jmp', ind)
   * 0x20:('jsr', abs)
