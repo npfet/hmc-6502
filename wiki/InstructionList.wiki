@@ -9,14 +9,14 @@ NOTE: "++" means the instruction is included in one of the more thorough tests..
   * 0x79:('adc', aby)
   * 0x61:('adc', idx)
   * 0x71:('adc', idy)
-  * 0x29:('and', imm)
-  * 0x25:('and', zpg)
-  * 0x35:('and', zpx)
-  * 0x2d:('and', abs)
-  * 0x3d:('and', abx)
-  * 0x39:('and', aby)
-  * 0x21:('and', idx)
-  * 0x31:('and', idy)
+  * 0x29:('and', imm) ++
+  * 0x25:('and', zpg) ++
+  * 0x35:('and', zpx) ++
+  * 0x2d:('and', abs) ++
+  * 0x3d:('and', abx) ++
+  * 0x39:('and', aby) ++
+  * 0x21:('and', idx) ++
+  * 0x31:('and', idy) ++
   * 0x0a:('asl', acc)
   * 0x06:('asl', zpg)
   * 0x16:('asl', zpx)
@@ -42,14 +42,14 @@ NOTE: "++" means the instruction is included in one of the more thorough tests..
   * 0xd6:('dec', zpx)
   * 0xce:('dec', abs)
   * 0xde:('dec', abx)
-  * 0x49:('eor', imm)
-  * 0x45:('eor', zpg)
-  * 0x55:('eor', zpx)
-  * 0x4d:('eor', abs)
-  * 0x5d:('eor', abx)
-  * 0x59:('eor', aby)
-  * 0x41:('eor', idx)
-  * 0x51:('eor', idy)
+  * 0x49:('eor', imm) ++
+  * 0x45:('eor', zpg) ++
+  * 0x55:('eor', zpx) ++
+  * 0x4d:('eor', abs) ++
+  * 0x5d:('eor', abx) ++
+  * 0x59:('eor', aby) ++
+  * 0x41:('eor', idx) ++
+  * 0x51:('eor', idy) ++
   * 0xe6:('inc', zpg)
   * 0xf6:('inc', zpx)
   * 0xee:('inc', abs)
@@ -80,14 +80,14 @@ NOTE: "++" means the instruction is included in one of the more thorough tests..
   * 0x56:('lsr', zpx)
   * 0x4e:('lsr', abs)
   * 0x5e:('lsr', abx)
-  * 0x09:('ora', imm)
-  * 0x05:('ora', zpg)
-  * 0x15:('ora', zpx)
-  * 0x0d:('ora', abs)
-  * 0x1d:('ora', abx)
-  * 0x19:('ora', aby)
-  * 0x01:('ora', idx)
-  * 0x11:('ora', idy)
+  * 0x09:('ora', imm) ++
+  * 0x05:('ora', zpg) ++
+  * 0x15:('ora', zpx) ++
+  * 0x0d:('ora', abs) ++
+  * 0x1d:('ora', abx) ++
+  * 0x19:('ora', aby) ++
+  * 0x01:('ora', idx) ++
+  * 0x11:('ora', idy) ++
   * 0x2a:('rol', acc)
   * 0x26:('rol', zpg)
   * 0x36:('rol', zpx)
