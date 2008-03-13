@@ -17,11 +17,11 @@ NOTE: "++" means the instruction is included in one of the more thorough tests..
   * 0x39:('and', aby) ++
   * 0x21:('and', idx) ++
   * 0x31:('and', idy) ++
-  * 0x0a:('asl', acc)
-  * 0x06:('asl', zpg)
-  * 0x16:('asl', zpx)
-  * 0x0e:('asl', abs)
-  * 0x1e:('asl', abx)
+  * 0x0a:('asl', acc) ++
+  * 0x06:('asl', zpg) ++
+  * 0x16:('asl', zpx) ++
+  * 0x0e:('asl', abs) ++
+  * 0x1e:('asl', abx) ++
   * 0x24:('bit', zpg)
   * 0x2c:('bit', abs)
   * 0xc9:('cmp', imm)
@@ -75,11 +75,11 @@ NOTE: "++" means the instruction is included in one of the more thorough tests..
   * 0xb4:('ldy', zpx) ++
   * 0xac:('ldy', abs) ++
   * 0xbc:('ldy', abx) ++
-  * 0x4a:('lsr', acc)
-  * 0x46:('lsr', zpg)
-  * 0x56:('lsr', zpx)
-  * 0x4e:('lsr', abs)
-  * 0x5e:('lsr', abx)
+  * 0x4a:('lsr', acc) ++
+  * 0x46:('lsr', zpg) ++
+  * 0x56:('lsr', zpx) ++
+  * 0x4e:('lsr', abs) ++
+  * 0x5e:('lsr', abx) ++
   * 0x09:('ora', imm) ++
   * 0x05:('ora', zpg) ++
   * 0x15:('ora', zpx) ++
@@ -88,16 +88,16 @@ NOTE: "++" means the instruction is included in one of the more thorough tests..
   * 0x19:('ora', aby) ++
   * 0x01:('ora', idx) ++
   * 0x11:('ora', idy) ++
-  * 0x2a:('rol', acc)
-  * 0x26:('rol', zpg)
-  * 0x36:('rol', zpx)
-  * 0x2e:('rol', abs)
-  * 0x3e:('rol', abx)
-  * 0x6a:('ror', acc)
-  * 0x66:('ror', zpg)
-  * 0x76:('ror', zpx)
-  * 0x6e:('ror', abs)
-  * 0x7e:('ror', abx)
+  * 0x2a:('rol', acc) ++
+  * 0x26:('rol', zpg) ++
+  * 0x36:('rol', zpx) ++
+  * 0x2e:('rol', abs) ++
+  * 0x3e:('rol', abx) ++
+  * 0x6a:('ror', acc) ++
+  * 0x66:('ror', zpg) ++
+  * 0x76:('ror', zpx) ++
+  * 0x6e:('ror', abs) ++
+  * 0x7e:('ror', abx) ++
   * 0xe9:('sbc', imm)
   * 0xe5:('sbc', zpg)
   * 0xf5:('sbc', zpx)
