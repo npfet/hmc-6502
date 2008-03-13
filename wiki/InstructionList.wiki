@@ -54,9 +54,9 @@ NOTE: "++" means the instruction is included in one of the more thorough tests..
   * 0xf6:('inc', zpx) ++
   * 0xee:('inc', abs) ++
   * 0xfe:('inc', abx) ++
-  * 0x4c:('jmp', abs)
-  * 0x6c:('jmp', ind)
-  * 0x20:('jsr', abs)
+  * 0x4c:('jmp', abs) ++
+  * 0x6c:('jmp', ind) ++
+  * 0x20:('jsr', abs) ++
   * 0xa9:('lda', imm) ++
   * 0xa5:('lda', zpg) ++
   * 0xb5:('lda', zpx) ++
@@ -160,5 +160,5 @@ NOTE: "++" means the instruction is included in one of the more thorough tests..
   * 0x68:('pla', imp)
   * 0x08:('php', imp)
   * 0x28:('plp', imp)
-  * 0x60:('rts', imp)
+  * 0x60:('rts', imp) ++
   * 0x40:('rti', imp)
