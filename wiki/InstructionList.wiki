@@ -134,14 +134,14 @@ NOTE: "++" means the instruction is included in one of the more thorough tests..
   * 0xf8:('sed', imp)
 
 # register instr
-  * 0xaa:('tax', imp)
-  * 0x8a:('txa', imp)
-  * 0xca:('dex', imp)
-  * 0xe8:('inx', imp)
-  * 0x98:('tya', imp)
-  * 0xa8:('tay', imp)
-  * 0x88:('dey', imp)
-  * 0xc8:('iny', imp)
+  * 0xaa:('tax', imp) ++
+  * 0x8a:('txa', imp) ++
+  * 0xca:('dex', imp) ++
+  * 0xe8:('inx', imp) ++
+  * 0x98:('tya', imp) ++
+  * 0xa8:('tay', imp) ++
+  * 0x88:('dey', imp) ++
+  * 0xc8:('iny', imp) ++
 
 # branch instruc
   * 0x10:('bpl', imm)
@@ -154,8 +154,8 @@ NOTE: "++" means the instruction is included in one of the more thorough tests..
   * 0xf0:('beq', imm)
 
 # stack instruct
-  * 0x9a:('txs', imp)
-  * 0xba:('tsx', imp)
+  * 0x9a:('txs', imp) ++
+  * 0xba:('tsx', imp) ++
   * 0x48:('pha', imp)
   * 0x68:('pla', imp)
   * 0x08:('php', imp)
