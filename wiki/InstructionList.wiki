@@ -1,14 +1,14 @@
 NOTE: "++" means the instruction is included in one of the more thorough tests...
 
 # automated generation
-  * 0x69:('adc', imm)
-  * 0x65:('adc', zpg)
-  * 0x75:('adc', zpx)
-  * 0x6d:('adc', abs)
-  * 0x7d:('adc', abx)
-  * 0x79:('adc', aby)
-  * 0x61:('adc', idx)
-  * 0x71:('adc', idy)
+  * 0x69:('adc', imm) ++
+  * 0x65:('adc', zpg) ++
+  * 0x75:('adc', zpx) ++
+  * 0x6d:('adc', abs) ++
+  * 0x7d:('adc', abx) ++
+  * 0x79:('adc', aby) ++
+  * 0x61:('adc', idx) ++
+  * 0x71:('adc', idy) ++
   * 0x29:('and', imm) ++
   * 0x25:('and', zpg) ++
   * 0x35:('and', zpx) ++
@@ -98,14 +98,14 @@ NOTE: "++" means the instruction is included in one of the more thorough tests..
   * 0x76:('ror', zpx) ++
   * 0x6e:('ror', abs) ++
   * 0x7e:('ror', abx) ++
-  * 0xe9:('sbc', imm)
-  * 0xe5:('sbc', zpg)
-  * 0xf5:('sbc', zpx)
-  * 0xed:('sbc', abs)
-  * 0xfd:('sbc', abx)
-  * 0xf9:('sbc', aby)
-  * 0xe1:('sbc', idx)
-  * 0xf1:('sbc', idy)
+  * 0xe9:('sbc', imm) ++
+  * 0xe5:('sbc', zpg) ++
+  * 0xf5:('sbc', zpx) ++
+  * 0xed:('sbc', abs) ++
+  * 0xfd:('sbc', abx) ++
+  * 0xf9:('sbc', aby) ++
+  * 0xe1:('sbc', idx) ++
+  * 0xf1:('sbc', idy) ++
   * 0x85:('sta', zpg) ++
   * 0x95:('sta', zpx) ++
   * 0x8d:('sta', abs) ++
