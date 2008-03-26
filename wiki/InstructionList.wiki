@@ -22,8 +22,8 @@ NOTE: "++" means the instruction is included in one of the more thorough tests..
   * 0x16:('asl', zpx) ++
   * 0x0e:('asl', abs) ++
   * 0x1e:('asl', abx) ++
-  * 0x24:('bit', zpg)
-  * 0x2c:('bit', abs)
+  * 0x24:('bit', zpg) ++
+  * 0x2c:('bit', abs) ++
   * 0xc9:('cmp', imm) ++
   * 0xc5:('cmp', zpg) ++
   * 0xd5:('cmp', zpx) ++
@@ -32,12 +32,12 @@ NOTE: "++" means the instruction is included in one of the more thorough tests..
   * 0xd9:('cmp', aby) ++
   * 0xc1:('cmp', idx) ++
   * 0xd1:('cmp', idy) ++
-  * 0xe0:('cpx', imm)
-  * 0xe4:('cpx', zpg)
-  * 0xec:('cpx', abs)
-  * 0xc0:('cpy', imm)
-  * 0xc4:('cpy', zpg)
-  * 0xcc:('cpy', abs)
+  * 0xe0:('cpx', imm) ++
+  * 0xe4:('cpx', zpg) ++
+  * 0xec:('cpx', abs) ++
+  * 0xc0:('cpy', imm) ++
+  * 0xc4:('cpy', zpg) ++
+  * 0xcc:('cpy', abs) ++
   * 0xc6:('dec', zpg) ++
   * 0xd6:('dec', zpx) ++
   * 0xce:('dec', abs) ++
