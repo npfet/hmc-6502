@@ -24,14 +24,14 @@ NOTE: "++" means the instruction is included in one of the more thorough tests..
   * 0x1e:('asl', abx) ++
   * 0x24:('bit', zpg)
   * 0x2c:('bit', abs)
-  * 0xc9:('cmp', imm)
-  * 0xc5:('cmp', zpg)
-  * 0xd5:('cmp', zpx)
-  * 0xcd:('cmp', abs)
-  * 0xdd:('cmp', abx)
-  * 0xd9:('cmp', aby)
-  * 0xc1:('cmp', idx)
-  * 0xd1:('cmp', idy)
+  * 0xc9:('cmp', imm) ++
+  * 0xc5:('cmp', zpg) ++
+  * 0xd5:('cmp', zpx) ++
+  * 0xcd:('cmp', abs) ++
+  * 0xdd:('cmp', abx) ++
+  * 0xd9:('cmp', aby) ++
+  * 0xc1:('cmp', idx) ++
+  * 0xd1:('cmp', idy) ++
   * 0xe0:('cpx', imm)
   * 0xe4:('cpx', zpg)
   * 0xec:('cpx', abs)
@@ -150,8 +150,8 @@ NOTE: "++" means the instruction is included in one of the more thorough tests..
   * 0x70:('bvs', imm)
   * 0x90:('bcc', imm)
   * 0xB0:('bcs', imm)
-  * 0xD0:('bne', imm)
-  * 0xf0:('beq', imm)
+  * 0xD0:('bne', imm) ++
+  * 0xf0:('beq', imm) ++
 
 # stack instruct
   * 0x9a:('txs', imp) ++
