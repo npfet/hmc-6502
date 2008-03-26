@@ -144,12 +144,12 @@ NOTE: "++" means the instruction is included in one of the more thorough tests..
   * 0xc8:('iny', imp) ++
 
 # branch instruc
-  * 0x10:('bpl', imm)
-  * 0x30:('bmi', imm)
-  * 0x50:('bvc', imm)
-  * 0x70:('bvs', imm)
-  * 0x90:('bcc', imm)
-  * 0xB0:('bcs', imm)
+  * 0x10:('bpl', imm) ++
+  * 0x30:('bmi', imm) ++
+  * 0x50:('bvc', imm) ++
+  * 0x70:('bvs', imm) ++
+  * 0x90:('bcc', imm) ++
+  * 0xB0:('bcs', imm) ++
   * 0xD0:('bne', imm) ++
   * 0xf0:('beq', imm) ++
 
