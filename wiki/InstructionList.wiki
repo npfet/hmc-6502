@@ -156,9 +156,9 @@ NOTE: "++" means the instruction is included in one of the more thorough tests..
 # stack instruct
   * 0x9a:('txs', imp) ++
   * 0xba:('tsx', imp) ++
-  * 0x48:('pha', imp)
-  * 0x68:('pla', imp)
-  * 0x08:('php', imp)
-  * 0x28:('plp', imp)
+  * 0x48:('pha', imp) ++
+  * 0x68:('pla', imp) ++
+  * 0x08:('php', imp) ++
+  * 0x28:('plp', imp) ++
   * 0x60:('rts', imp) ++
   * 0x40:('rti', imp)
