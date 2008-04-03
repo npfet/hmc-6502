@@ -1,3 +1,3 @@
-* test/scripts/PowerTest.fdo (a.k.a. Suite P)
-* test/scripts/SuiteA/test00.fdo (loads & stores)
-* test/scripts/SuiteA/test01.fdo (and & or & xor)
+   * test/scripts/PowerTest.fdo (a.k.a. Suite P)
+   * test/scripts/SuiteA/test00.fdo (loads & stores)
+   * test/scripts/SuiteA/test01.fdo (and & or & xor)
