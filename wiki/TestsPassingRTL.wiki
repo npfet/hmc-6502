@@ -1,3 +1,11 @@
+Available RTL-Passing Tests:
    * test/scripts/PowerTest.fdo (a.k.a. Suite P)
    * test/scripts/SuiteA/test00.fdo (loads & stores)
    * test/scripts/SuiteA/test01.fdo (and & or & xor)
+   * test/scripts/SuiteA/test05.fdo (register instructions)
+
+Testing Instructions:
+   * In ModelSim, change directory to the trunk of the repository (most likely a directory named either hmc-6502 or trunk).
+   * In the ModelSim command prompt, type:
+      * do {./TEST_LOCATION/TEST_NAME.fdo}
+      * run -all
