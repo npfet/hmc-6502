@@ -10,7 +10,8 @@ Available RTL-Passing Tests:
    * test/scripts/SuiteA/test07.fdo (cmp & beq & bne)
    * test/scripts/SuiteA/test08.fdo (cpx & cpy & bit)
    * test/scripts/SuiteA/test09.fdo (other branches)
-   * test/scripts/SuiteA/test10.fdo (test instructions)
+   * test/scripts/SuiteA/test10.fdo (flag instructions)
+   * test/scripts/SuiteA/test11.fdo (stack instructions)
 
 Testing Instructions:
    * In ModelSim, change directory to the trunk of the repository (most likely a directory named either hmc-6502 or trunk).
