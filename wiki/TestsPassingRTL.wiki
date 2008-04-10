@@ -4,6 +4,7 @@ Available RTL-Passing Tests:
    * test/scripts/SuiteA/test01.fdo (and & or & xor)
    * test/scripts/SuiteA/test02.fdo (inc & dec)
    * test/scripts/SuiteA/test03.fdo (bit shifts)
+   * test/scripts/SuiteA/test04.fdo (jumps & return)
    * test/scripts/SuiteA/test05.fdo (register instructions)
    * test/scripts/SuiteA/test06.fdo (add & subtract)
    * test/scripts/SuiteA/test07.fdo (cmp & beq & bne)
