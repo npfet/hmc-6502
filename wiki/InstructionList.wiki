@@ -130,8 +130,8 @@ NOTE: "++" means the instruction is included in one of the more thorough tests..
   * 0x58:('cli', imp)
   * 0x78:('sei', imp)
   * 0xb8:('clv', imp) ++
-  * 0xd8:('cld', imp) ++
-  * 0xf8:('sed', imp) ++
+  * 0xd8:('cld', imp)
+  * 0xf8:('sed', imp)
 
 # register instr
   * 0xaa:('tax', imp) ++
