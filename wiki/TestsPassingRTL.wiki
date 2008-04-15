@@ -24,3 +24,7 @@ Testing Instructions:
          * ^ See all available test names in the list at the top of this page. You need to include the path to that test as well.
       * run -all
    * If you need debugging help, just ask Heather or Kyle.
+
+Debugging:
+   * ROMS (opcodes + comments on what the tests are doing) are in test/roms.
+   * Verilog testbenches are test/SuiteATests/test*.sv and test/unittests/PowerTest.sv in case you need to look at the testbench particulars (though it probably won't help too much with debugging).
