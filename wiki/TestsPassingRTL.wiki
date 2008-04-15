@@ -27,4 +27,4 @@ Testing Instructions:
 
 Debugging:
    * ROMS (opcodes + comments on what the tests are doing) are in test/roms.
-   * Verilog testbenches are test/SuiteATests/test*.sv and test/unittests/PowerTest.sv in case you need to look at the testbench particulars (though it probably won't help too much with debugging).
+   * Verilog testbenches are test/SuiteATests/testXX.sv and test/unittests/PowerTest.sv in case you need to look at the testbench particulars (though it probably won't help too much with debugging).
