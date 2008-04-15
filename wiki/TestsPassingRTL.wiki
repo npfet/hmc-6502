@@ -13,9 +13,14 @@ Available RTL-Passing Tests:
    * test/scripts/SuiteA/test10.fdo (flag instructions)
    * test/scripts/SuiteA/test11.fdo (stack instructions)
    * test/scripts/SuiteA/test12.fdo (rti)
+(Notice that all but PowerTest make up "Suite A".)
 
 Testing Instructions:
+   * First "svn update" on the repository.
+   * From the src directory, run generate_plas.bat (if you're using Windows, assumes Python is in your PATH environment variable, ask Heather if you need help with this step). YOU MUST DO THIS STEP FOR EVERY UPDATE.
    * In ModelSim, change directory to the trunk of the repository (most likely a directory named either hmc-6502 or trunk).
-   * In the ModelSim command prompt, type:
-      * do {./TEST_LOCATION/TEST_NAME.fdo}
+   * In the ModelSim command prompt, for each TEST_NAME, type:
+      * do {./TEST_NAME}
+         * ^ See all available test names in the list at the top of this page. You need to include the path to that test as well.
       * run -all
+   * If you need debugging help, just ask Heather or Kyle.
