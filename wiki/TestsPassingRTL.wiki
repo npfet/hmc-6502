@@ -13,7 +13,9 @@ Available RTL-Passing Tests:
    * test/scripts/SuiteA/test10.fdo (flag instructions)
    * test/scripts/SuiteA/test11.fdo (stack instructions)
    * test/scripts/SuiteA/test12.fdo (rti)
-(Notice that all but PowerTest make up "Suite A".)
+   * test/scripts/SuiteA/test13.fdo (special [unused] flags)
+   * test/scripts/AllSuiteA.fdo (a.k.a. Suite A)
+(Notice that all but PowerTest make up "Suite A", and that test00 through test13 are all combined into the single AllSuiteA test for convenience, though I'd recommend running each individual test for better confidence.)
 
 Testing Instructions:
    * First "svn update" on the repository.
